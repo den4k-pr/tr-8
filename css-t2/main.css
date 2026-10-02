@@ -124,7 +124,9 @@
   height: 823px;
   position: relative;
   overflow: hidden;
-  background: #2a0a1c url(../images-t2/im18.webp) no-repeat 0 0 / 428px 823px;
+  background-size: 100% 100%;
+  background-image: url(../images-t2/n1.webp) ;
+  background-repeat: no-repeat;
 }
 
 .hero-marquee {
@@ -197,7 +199,7 @@
 .hero-bottom {
   position: absolute;
   left: 24px;
-  top: 582px;
+  top: 615px;
   width: 380px;
   display: flex;
   flex-direction: column;
@@ -1631,8 +1633,7 @@ body { padding-bottom: 196px; }
   .hero {
     width: 100vw;
     height: 192.29vw;
-    background: #2a0a1c url(../images-t2/im18.webp) no-repeat 0 0 / 100vw 192.29vw;
-  }
+ }
 
   .hero-marquee {
     top: 8.18vw;
@@ -1685,7 +1686,7 @@ body { padding-bottom: 196px; }
 
   .hero-bottom {
     left: 5.61vw;
-    top: 135.98vw;
+    top: 143.98vw;
     width: 88.79vw;
     gap: 3.27vw;
   }
